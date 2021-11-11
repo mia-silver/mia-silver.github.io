@@ -8,24 +8,34 @@ h1 {
     text-align: center;
 }
 
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment {
-   display:flex;
-   flex-direction: row;
-   align-items: right;
-   padding: 10px;  
+   width: 22%;
+   padding: 10px 10px;  
    margin: 10px;
    background: wheat;
    border-radius: 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
 .assignment img {
-    width: 200px;
-    margin: 10px;
+    width: 75%;
+    border: 3px solid wheat;
+    display: block;
+    margin: auto;
 }
 
 .assignment img:hover {
     border: 3px solid darkgoldenrod;
-    margin: 7px;
+    display: block;
+    margin: auto;
 }
 
 .assignment a:link, a:visited {
@@ -34,6 +44,6 @@ h1 {
 }
 
 .assignment a:hover, a:active {
-    color: rgb(153, 113, 10);
+    color: #6e5007;
     text-decoration: underline;
 }
